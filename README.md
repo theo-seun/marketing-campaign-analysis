@@ -51,11 +51,26 @@ The project followed a structured exploratory data analysis (EDA) process:
 
 ---
 
-## Key Takeaways
+## Key Insights from the Marketing Campaign Analysis
 
-- Customers with past campaign success (`poutcome = success`) are much more likely to say "yes" again
-- Most customers responded "no" indicating a strong class imbalance
-- Demographics like job, education, and marital status show minor variations but aren't strong predictors alone
+- **Top Performing Cities**  
+  The top 10 cities with the highest number of campaigns were analyzed.  
+  Some cities achieved high ROI but lower conversion rates, showing strong spending efficiency in specific locations.
+
+- **Campaign Duration Analysis**  
+  There is a non-linear relationship between campaign duration and performance.  
+  Extremely short or long campaigns underperform compared to those with moderate lengths.
+
+- **Customer Segment Performance**  
+  Conversion rates and ROI differ by customer segment.  
+  Some segments are significantly more profitable and should be prioritized in future targeting strategies.
+
+- **Efficiency Trade-offs**  
+  High conversion rates don’t always mean high ROI.  
+  It’s important to balance both metrics when judging campaign success.
+
+---
+
 
 Check out the notebook [**here**](https://github.com/theo-seun/marketing-campaign-analysis/blob/main/Marketing%20Campaign.ipynb)
 
